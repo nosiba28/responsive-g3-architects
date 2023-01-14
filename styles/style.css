@@ -1,0 +1,226 @@
+/* common styles */
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+
+}
+
+/* nav section */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 45px;
+    line-height: 53px;
+    font-weight: 700;
+    color: #131313;
+    padding-top: 70px;
+    padding-left: 200px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 108px;
+    padding-right: 252px;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* banner section */
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    /* text-align: center; */
+
+}
+
+.banner-info {
+    font-weight: 400;
+    font-size: 16px;
+    /* text-align: center; */
+    color: #727272;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px;
+}
+
+.btn-primary:hover {
+    background-color: #727272;
+    border: 2px solid black;
+}
+
+.banner img {
+    width: 75%;
+    height: 600px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 190px;
+    background: url(group-three-modern-architects.jpg);
+    border-radius: 8px;
+}
+
+/* features list style */
+.features-list {
+    display: flex;
+
+    padding-top: 130px;
+    padding-left: 200px;
+
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* row-gap: 24px;
+    column-gap: 24px; */
+    gap: 24px;
+}
+
+.features-info {
+    padding-top: 150px;
+    padding-left: 76px;
+    padding-right: 100px;
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.quick {
+    color: #727272;
+}
+
+.our {
+    color: #131313;
+}
+
+.yellow {
+    color: #FF900E;
+}
+
+.features-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* The features you will love and enjoy section styles */
+.our-enjoyed-features {
+    display: flex;
+    gap: 120px;
+    padding-left: 110px;
+    padding-right: 125px;
+    padding-top: 160px;
+}
+
+.our-features-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    height: 106px;
+}
+
+.our-features-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.future-features {
+    margin-top: 20px;
+    padding-left: 29px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 29px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.future-features-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.future-feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.btn-experience {
+    margin-top: -100px;
+    text-align: center;
+    color: #FFFFFF;
+    /* width: 258px;
+    height: 109px; */
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 25px;
+
+}
+
+.btn-experience .year {
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.btn-experience .exp {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+/* some facts section */
+.some-fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.some-fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
