@@ -31,6 +31,7 @@ nav ul {
     justify-content: space-evenly;
     padding-top: 108px;
     padding-right: 252px;
+   
 
 }
 
@@ -44,6 +45,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color: #424242;
 }
 
 /* banner section */
@@ -368,7 +370,7 @@ nav ul li a {
     nav ul {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        row-gap: 2px;
+        row-gap: 5px;
         padding: 0px;
         text-align: center;
     }
@@ -376,7 +378,7 @@ nav ul li a {
     nav ul li {
         list-style: none;
         /* padding-left: 50px; */
-
+        padding: 0px;
         font-weight: 500;
         font-size: 15px;
 
@@ -552,7 +554,7 @@ nav ul li a {
        /* background: #FFF4E7; */
        border-radius: 8px;
        /* text-align: center; */
-       margin: 50px 10px 30px 30px;
+       margin: 50px 10px 0px 30px;
        /* text-align: center; */
     }
 
