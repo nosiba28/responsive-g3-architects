@@ -11,7 +11,7 @@
 
 }
 
-/* nav section */
+/* nav section styles */
 nav {
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@ nav ul li a {
     color: #424242;
 }
 
-/* banner section */
+/* banner section styles*/
 .banner {
     text-align: center;
 }
@@ -56,14 +56,12 @@ nav ul li a {
 .banner-title {
     font-weight: 700;
     font-size: 64px;
-    /* text-align: center; */
 
 }
 
 .banner-info {
     font-weight: 400;
     font-size: 16px;
-    /* text-align: center; */
     color: #727272;
 }
 
@@ -182,9 +180,6 @@ nav ul li a {
     font-weight: 600;
     font-size: 20px;
     color: #131313;
-
-
-
 }
 
 .future-feature-description {
@@ -248,8 +243,8 @@ nav ul li a {
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-evenly;
     text-align: center;
-    padding-left: 60px;
-    padding-right: 75px;
+    padding-left: 40px;
+    padding-right: 35px;
     margin-top: 40px;
 }
 
@@ -371,15 +366,15 @@ nav ul li a {
     color: #424242;
 }
 
-/* ------------------------
-       Media queries
---------------------- */
+/* --------------------------------------------------------------------------
+                          Media queries
+-----------------------------------------------------------------------------*/
 
-/* Mobile devices */
+/* ===========> Mobile devices <============ */
+
 @media only screen and (max-width:688px) {
     .header {
         width: 100%;
-        /* background-color: #727272; */
     }
 
     nav {
@@ -393,10 +388,8 @@ nav ul li a {
     .nav-title {
         text-align: center;
         font-size: 35px;
-        /* line-height: 53px; */
         font-weight: 700;
         color: #131313;
-        /* padding-top: 70px;*/
         padding: 0px;
     }
 
@@ -411,7 +404,6 @@ nav ul li a {
 
     nav ul li {
         list-style: none;
-        /* padding-left: 50px; */
         padding: 0px;
         font-weight: 500;
         font-size: 15px;
@@ -422,14 +414,12 @@ nav ul li a {
     .banner-title {
         font-weight: 700;
         font-size: 50px;
-        /* text-align: center; */
 
     }
 
     .banner-info {
         font-weight: 400;
         font-size: 12px;
-        /* text-align: center; */
         padding-left: 20px;
         padding-right: 15px;
     }
@@ -465,8 +455,6 @@ nav ul li a {
     .features {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* row-gap: 24px;
-    column-gap: 24px; */
         row-gap: 18px;
 
     }
@@ -484,8 +472,6 @@ nav ul li a {
         padding: 0px;
         gap: 20px;
         padding-left: 20px;
-        /* padding-right: 125px; */
-        /* padding-top: 160px; */
     }
 
     .our-features-title {
@@ -503,11 +489,6 @@ nav ul li a {
 
     .btn-experience {
         margin-top: -100px;
-
-
-        /* width: 258px;
-        height: 109px; */
-
         border-radius: 8px;
         border: none;
         padding: 15px;
@@ -583,13 +564,9 @@ nav ul li a {
     
     .footer {
        width: 80%;
-     
        height: 70px;
-       /* background: #FFF4E7; */
        border-radius: 8px;
-       /* text-align: center; */
        margin: 50px 10px 0px 30px;
-       /* text-align: center; */
     }
 
     .footer-description {
@@ -597,8 +574,6 @@ nav ul li a {
         padding-bottom: 18px;
         font-weight: 400;
         font-size: 13px;
-        /* text-align: center; */
-        /* color: #424242; */
     }
 
 }
