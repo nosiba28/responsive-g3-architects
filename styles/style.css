@@ -254,11 +254,11 @@ nav ul li a {
 }
 
 .fact {
-    width: 241.83px;
-    height: 241.83px;
+    width: 170.83px;
+    height: 180.83px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    padding: 45px 35px 50px 35px;
+    padding: 45px 35px 60px 35px;
 
 }
 
@@ -334,8 +334,8 @@ nav ul li a {
 }
 .my-own-section{
     padding-top: 80px;
-    padding-left: 70px;
-    padding-right: 50px;
+    padding-left: 50px;
+    padding-right: 30px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
@@ -343,7 +343,7 @@ nav ul li a {
 }
 
 .section-part img{
-    width: 400px;
+    width: 350px;
     height: 60hv;
     transition: width 1s, height 1s, transform 1s;
 }
