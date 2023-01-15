@@ -89,6 +89,7 @@ nav ul li a {
     padding-top: 50px;
     padding-left: 200px;
     padding-right: 190px;
+    padding-bottom: 45px;
     background: url(group-three-modern-architects.jpg);
     border-radius: 8px;
 }
@@ -154,6 +155,9 @@ nav ul li a {
     color: #131313;
     border-left: 5px solid #FF900E;
     height: 106px;
+    padding-bottom: 24px;
+    padding-left: 21px;
+
 }
 
 .our-features-description {
@@ -177,6 +181,9 @@ nav ul li a {
     font-weight: 600;
     font-size: 20px;
     color: #131313;
+
+
+
 }
 
 .future-feature-description {
@@ -213,14 +220,349 @@ nav ul li a {
 }
 
 /* some facts section */
+.some-facts {
+    padding-left: 100px;
+    padding-top: 130px;
+
+}
+
 .some-fact-title {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
+    padding-top: 24px;
 }
 
 .some-fact-description {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    padding-bottom: 100px;
+}
+
+.facts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 75px;
+    margin-top: 40px;
+}
+
+.fact {
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 35px 50px 35px;
+
+}
+
+.fact:hover {
+    transform: rotate(180deg) scale(0.7);
+    background-color: peru;
+
+}
+
+.fact:hover {
+    transition: width 1s, height 2s, transform 2s;
+}
+
+.fact .p-number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.fact .p-text {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+
+}
+
+/* Our Sponspors section styles */
+
+.sponspors-info {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.sponspors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+
+}
+
+.sponspors-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponspors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
+.sponspor {
+    /* background: linear-gradient(90deg, black 0%, rgba(240, 96, 39, 0) 100%), url(../images/sponsors/spotify.png); */
+    mix-blend-mode: luminosity;
+}
+
+/* footer section */
+.footer {
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    margin: 130px 100px 200px 100px;
+}
+
+.footer-description {
+    padding-top: 38px;
+    padding-bottom: 38px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+}
+
+/* ------------------------
+       Media queries
+--------------------- */
+
+/* Mobile devices */
+@media only screen and (max-width:688px) {
+    .header {
+        width: 100%;
+        /* background-color: #727272; */
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        row-gap: 0px;
+    }
+
+    .nav-title {
+        text-align: center;
+        font-size: 35px;
+        /* line-height: 53px; */
+        font-weight: 700;
+        color: #131313;
+        /* padding-top: 70px;*/
+        padding: 0px;
+    }
+
+
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        /* padding-left: 50px; */
+
+        font-weight: 500;
+        font-size: 15px;
+
+
+    }
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 50px;
+        /* text-align: center; */
+
+    }
+
+    .banner-info {
+        font-weight: 400;
+        font-size: 12px;
+        /* text-align: center; */
+        padding-left: 20px;
+        padding-right: 15px;
+    }
+
+    .btn-primary {
+        font-weight: 600;
+        font-size: 15px;
+        width: 100px;
+        height: 50px;
+        margin-top: 25px;
+
+    }
+
+    .banner img {
+        width: 75%;
+        height: 60%;
+        padding-top: 40px;
+        padding-left: 50px;
+        padding-right: 19px;
+        padding-bottom: 15px;
+
+    }
+
+    .features-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        padding-top: 40px;
+        padding-left: 20px;
+
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* row-gap: 24px;
+    column-gap: 24px; */
+        row-gap: 18px;
+
+    }
+
+    .features-info {
+        padding-top: 50px;
+        padding-left: 18px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+
+    .our-enjoyed-features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0px;
+        gap: 20px;
+        padding-left: 20px;
+        /* padding-right: 125px; */
+        /* padding-top: 160px; */
+    }
+
+    .our-features-title {
+
+        font-size: 38px;
+        height: 80px;
+        padding-bottom: 24px;
+        padding-left: 21px;
+
+    }
+
+    .our-features-pic img {
+        width: 90%;
+    }
+
+    .btn-experience {
+        margin-top: -100px;
+
+
+        /* width: 258px;
+        height: 109px; */
+
+        border-radius: 8px;
+        border: none;
+        padding: 15px;
+
+    }
+
+    .btn-experience .year {
+        font-weight: 700;
+        font-size: 42px;
+
+    }
+
+    .btn-experience .exp {
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .some-facts {
+        padding-left: 30px;
+        padding-top: 30px;
+
+    }
+
+    .some-fact-title {
+
+        font-size: 42px;
+        padding-top: 10px;
+    }
+
+    .some-fact-description {
+
+        padding-bottom: 20px;
+    }
+
+    .facts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
+        padding-right: 5px;
+        margin-top: 40px;
+    }
+
+    .fact {
+        width: 200px;
+        height: 200px;
+        padding: 15px 15px 30px 15px;
+        margin-top: 20px;
+
+    }
+
+    .fact .p-number {
+
+        font-size: 38px;
+
+    }
+
+    .fact .p-text {
+
+        font-size: 18px;
+
+
+    }
+    .sponspors {
+        
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+        padding-left: 40px;
+        
+
+    }
+    
+    .footer {
+       width: 80%;
+     
+       height: 70px;
+       /* background: #FFF4E7; */
+       border-radius: 8px;
+       /* text-align: center; */
+       margin: 50px 10px 30px 30px;
+       /* text-align: center; */
+    }
+
+    .footer-description {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-weight: 400;
+        font-size: 13px;
+        /* text-align: center; */
+        /* color: #424242; */
+    }
+
 }
